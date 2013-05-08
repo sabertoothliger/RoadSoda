@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+  <title>RoadSoda</title>
+  
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <link rel="stylesheet" type="text/css" href="application.css">
+
+</head>
+
+<body>
+
+	<div class="header">
+
+		<img src="clientServices.png" alt="Client Service">
+
+	</div>
+
+	<nav>
+
+		<ul>
+
+			<li><a href="#sponsored">Sponsored Events</a></li>
+
+			<li><a href="#private">Private Evenets</a></li>
+
+			<li><a href="#packages">Packages</a></li>
+
+			<li><a href="#contact"></a></li>
+
+		</ul>
+
+	</nav>
+
+	<article>
+
+		<h1 id="sponsored">Sponsored Events</h1>
+
+		<img src="SOME IMAGE" alt="SOME TEXT">
+
+		<pre>
+
+			SOME TEXT
+
+		</pre>
+
+		<h1 id="private">Private Events</h1>
+
+		<img src="SOME IMAGE" alt="SOME TEXT">
+
+		<pre>
+
+			SOME TEXT
+
+		</pre>
+
+		<h1 id="packages">Packages</h1>
+
+		<img src="SOME IMAGE" alt="SOME TEXT">
+
+		<pre>
+
+			SOME TEXT
+
+		</pre>
+
+	</article>
+
+	<%= render "contact" %>
+
+	<div class="header" class="2ndheader" id="contact">
+
+		<img src="ContactUs.png" alt="Contact Us!">
+
+	</div>
+
+	<article>
+
+		<pre>
+
+			CONTACT INFO 
+
+		</pre>
+
+		<img src="SOME IMAGE">
+
+	</article>
+
+</body>
+
+</html>

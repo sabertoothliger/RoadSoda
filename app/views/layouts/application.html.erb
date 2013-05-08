@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RoadSoda</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <link rel="stylesheet" type="text/css" href="application.css">
+
+</head>
+
+<body>
+
+	<nav>
+		<ul class="navButtons">
+
+			<li><a href="http://wwww.Road-soda.com/about"><img src="/assets/images/WhatIsRoadSoda.gif" alt="What Is Road Soda?" width="85%"></a></li>
+			
+			<li><a href="http://wwww.Road-soda.com/menu"><img src="/assets/images/CocktailMenus.gif" alt="Cocktail Menus" width="85%"></a></li>
+			
+			<li><a href="/client-services"><img src="/assets/ClientServices.gif" alt="Client Services" width="85%"></a></li>
+			
+			<li><a href="/client-services#contact"><img src="/assets /images/ContactUs.Gif" alt="Contact Us" width="85%"></a></li>
+
+		</ul>
+	</nav>
+
+<%= yield %>
+
+<footer>
+
+	<p>Please Contact us for more information at info@Road-Soda.com or give us a call at (999) 999-9999</p>
+
+</footer>
+
+</body>
+
+</html>
